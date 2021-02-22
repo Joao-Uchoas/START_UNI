@@ -6,7 +6,7 @@ public class COFINS implements Imposto{
     public double calculaImposto(double valor){
         if(valor > 12000)
             return valor * 0.08;
-        else 
-            return valor;
+         
+        return 0;
     }
 }

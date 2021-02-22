@@ -21,7 +21,7 @@ public class Main {
         System.out.printf("COFINS: %.1f\n", cofins.calculaImposto(valor));
 
         double valorFinal = valor + icms.calculaImposto(valor) + ipi.calculaImposto(valor) + cofins.calculaImposto(valor);
-        System.out.printf("Valot Final: %.1f", valorFinal);
+        System.out.printf("Valot Final: %.1f\n", valorFinal);
         input.close();
     }
 }
